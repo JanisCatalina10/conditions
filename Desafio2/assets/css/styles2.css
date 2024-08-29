@@ -52,8 +52,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  margin-top: 30px;
+  padding-top: 20px;
 }
 button {
   padding: 10px;
@@ -70,9 +69,8 @@ button {
 p {
   font-family: "Handjet", sans-serif;
   font-size: 20px;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 40px;
   color: white;
-  background-color: black;
   padding: 20px;
 }
