@@ -1,64 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url(../imgs/tojiymegumi.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0;
+body {
+  background-image: url(../imgs/tojiymegumi.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
 }
 
-h1{
-    text-align: center;
-    padding: 50px;
-    font-family: "Handjet", sans-serif;
-    color:white;
-    font-size: 40px;
+h1 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Handjet", sans-serif;
+  color: white;
+  font-size: 40px;
 }
-
 
 /* CONTENEDOR DE STICKERS*/
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    padding: 20px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
 }
 
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-img{
-    width: 400px;
-    height: auto;
-}
-
-form{
-    padding: 20px;
-    font-family: "Handjet", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-    background-color: white;
+img {
+  width: 400px;
+  height: auto;
 }
 
-.check-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    margin-top: 30px;
+form {
+  padding: 20px;
+  font-family: "Handjet", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
 }
-button{
-    padding: 10px;
-    font-family: "Handjet", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+
+.check-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+button {
+  padding: 10px;
+  font-family: "Handjet", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: "Handjet", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  padding: 20px;
 }
