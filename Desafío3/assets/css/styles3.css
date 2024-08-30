@@ -44,9 +44,14 @@ button {
   font-weight: 500;
   padding: 10px;
   cursor: pointer;
+  transition-property: border, color, width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 button:hover {
   color: rgb(151, 0, 10);
+  width: 100px;
+  border: 2px solid rgb(151, 0, 10);
 }
 
 .return {
